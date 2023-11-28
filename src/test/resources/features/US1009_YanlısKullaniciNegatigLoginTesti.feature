@@ -1,4 +1,4 @@
-@wip
+
 Feature: yanlis kullnici ile negatif kogin testi
 
   Scenario Outline:
