@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1008 Scenario Otline ile birden fazla daha icin test calistirma
 
   Scenario Outline:
