@@ -1,4 +1,4 @@
-@wip
+
 Feature: Kullanici yanlis bilgilerle giris yapamaz
 
   Scenario: TC10 gecerli kullanici adi ve gecersiz sifre ile negitif login testi
@@ -22,7 +22,7 @@ Feature: Kullanici yanlis bilgilerle giris yapamaz
     Then login butonuna basar
     And giris yapilamadigini test eder
     And 2 saniye bekler
-    Then hadi
+
 
 
   Scenario: TC11 gecersiz kullanici adi ve gecersiz sifre ile negitif login testi

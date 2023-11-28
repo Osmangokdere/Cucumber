@@ -96,9 +96,10 @@ public class amazonStepDefinitions {
     @Then("url de {string} oldugunu test eder")
     public void urlDeOldugunuTestEder(String arananKelime) {
         String actualUrl=Driver.getDriver().getCurrentUrl();
-        Assert.assertTrue(actualUrl.contains(arananKelime));
+        Assert.assertTrue(actualUrl.contains(arananKelime));    }
 
-
+    @And("sayfayi yeniler")
+    public void sayfayiYeniler() {
+        Driver.getDriver().navigate().refresh();
     }
-
 }
