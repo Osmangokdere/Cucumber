@@ -1,4 +1,4 @@
-
+@wip
 Feature: US1003 Kullanici parametre olarak girilen degerleri aratir
   Background: Tum senaryolar icin ortak ilk adim
     Given kullanici amazon anasayfaya gider

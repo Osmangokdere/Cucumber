@@ -1,7 +1,7 @@
 
 Feature: US1003 Kullanici parametre olarak girilen degerleri aratir
 
-
+  @p1
   Scenario: TC03 Kullanici Parametreli method ile Nutella aratir
 
     Given kullanici amazon anasayfaya gider

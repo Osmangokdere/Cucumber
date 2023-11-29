@@ -13,7 +13,7 @@ Feature: Kullanici yanlis bilgilerle giris yapamaz
 
 
 
-
+  @p1
   Scenario: TC11 gecersiz kullanici adi ve gecerli sifre ile negitif login testi
     Given kullanici "qdUrl" anasayfaya gider
     Then ilk sayfa login linkine click yapar

@@ -1,3 +1,4 @@
+@p2
 Feature:US1002 Kullanici amazon anasayfada birden fazla urun aratir
 
 
@@ -7,7 +8,6 @@ Feature:US1002 Kullanici amazon anasayfada birden fazla urun aratir
     Then amazon arama kutusuna Nutella yazip aratir
     And arama sonuclarinin Nutella icerdigini test eder
     And sayfayi kapatir
-
 
     Given kullanici amazon anasayfaya gider
     Then amazon arama kutusuna Java yazip aratir

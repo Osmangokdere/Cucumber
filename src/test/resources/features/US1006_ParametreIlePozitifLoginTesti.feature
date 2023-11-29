@@ -1,6 +1,6 @@
 Feature: US1006 Kullanici configuration dosyasindaki bilgiler ile login olabilmesi
 
-
+@wip
   Scenario: TC09 Gecerli kullanici adi ve sifre ile Pozitif Login Testi
 
     Given kullanici "qdUrl" anasayfaya gider
