@@ -10,7 +10,7 @@ Feature: US1008 Scenario Otline ile birden fazla daha icin test calistirma
     And sayfayi yeniler
     Then amazon arama kutusuna "<arananUrun>" yazip aratir
     And arama sonuclarinin "arananUrun" icerdigini test eder
-    Then sayfayi kapatir
+
 
     Examples:
     |arananUrun|

@@ -10,7 +10,7 @@ Feature: Kullanici yanlis bilgilerle giris yapamaz
     And password kutusuna "qdGecersizPassword" yazar
     Then login butonuna basar
     And giris yapilamadigini test eder
-    And 3 saniye bekler
+
 
 
 

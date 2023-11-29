@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.EditorPage;
@@ -14,7 +15,7 @@ public class EditorStepdefinitions {
 
 
     }
-    @Then("First name kutusuna {string} yazar")
+    @When("First name kutusuna {string} yazar")
     public void first_name_kutusuna_yazar(String firstName) {
         editorPage.firstName.sendKeys(firstName);
 
